@@ -33,16 +33,16 @@ const App = () => {
   return (
     <div>
       <div>
-        <h2>Register</h2>
+        <h2>1. Register yourself</h2>
         <input value={username} onChange={e => setUsername(e.target.value)} placeholder="Username" />
         <input value={password} onChange={e => setPassword(e.target.value)} placeholder="Password" type="password" />
-        <button onClick={register}>1. Register yourself to Play the Game</button>
+        <button onClick={register}>Register</button>
         {token && <p>You have been register successfully!</p>}
       </div>
 
       <div>
-        <h2>Start a game</h2>
-        <button onClick={startGame}>2. Start Game</button>
+        <h2>2. Start a game</h2>
+        <button onClick={startGame}>Start Game</button>
         {gameId && <p>Your game ID: {gameId}, so now provide the your guess number down below please.</p>}
       </div>
 
