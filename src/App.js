@@ -43,7 +43,7 @@ const App = () => {
       <div>
         <h2>Start a game</h2>
         <button onClick={startGame}>Start Game</button>
-        {gameId && <p>Your game ID: {gameId}, please provide the your guess.</p>}
+        {gameId && <p>Your game ID: {gameId}, so now provide the your guess number down below please.</p>}
       </div>
 
       <div>
