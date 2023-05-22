@@ -31,6 +31,13 @@ const App = () => {
   };
 
   return (
+    <div style={{
+      display: 'flex',
+      flexDirection: 'column',
+      justifyContent: 'center',
+      alignItems: 'center',
+      height: '100vh',
+    }}>
     <div>
       <div>
         <h2>1. Register yourself</h2>
@@ -52,6 +59,7 @@ const App = () => {
         <button onClick={makeGuess}>Guess</button>
         {message && <p>{message}</p>}
       </div>
+    </div>
     </div>
   );
 };
