@@ -37,7 +37,7 @@ const App = () => {
       justifyContent: 'center',
       alignItems: 'center',
       height: '100vh',
-      backgroundColor: '#282c34',
+      backgroundColor: '#BEBEBE',
     }}>
     <div>
       <div>
