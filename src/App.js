@@ -61,7 +61,19 @@ const App = () => {
         {message && <p>{message}</p>}
       </div>
     </div>
+    <div style={{
+    position: 'fixed',
+    left: '10px',
+    bottom: '10px',
+    backgroundColor: '#BEBEBE',
+    color: '#000',
+    padding: '5px',
+    fontSize: '10px',
+    }}>
+    Version: 0.0.1
     </div>
+    </div>
+
   );
 };
 
